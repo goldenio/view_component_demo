@@ -1,0 +1,24 @@
+<% block = Proc.new do %>
+  <div class='text-base font-bold <%= wrapper_classes %>'>
+    <% flash.each do |key, value| %>
+      <div class='<%= classes(key).join(' ') %>'
+           data-turbo-temporary
+           data-controller='flash'
+           data-action='click->flash#stopTimer'
+           data-flash-action-value="<%= action %>">
+        <p class='relative pr-6'>
+          <%= sanitize value %>
+          <span class='inline-block px-1 cursor-pointer rounded shadow-md shadow-slate-500/40 absolute top-0 -right-2' data-action='click->flash#disappear'>X</span>
+        </p>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<% if frame.present? %>
+  <%= turbo_frame_tag frame do %>
+    <% block.call %>
+  <% end %>
+<% else %>
+  <% block.call %>
+<% end %>

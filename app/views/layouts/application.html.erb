@@ -11,6 +11,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <main class='flex-1 w-full sm:w-4/5 m-auto'>
+      <%= render FlashComponent.new(frame: 'turbo_flash', flash: flash, wrapper_classes: 'flex flex-col gap-y-2 m-2 p-2') %>
+      <%= yield %>
+    </main>
   </body>
 </html>
