@@ -68,3 +68,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "config", "~> 5.0"
+gem "lookbook", "~> 2.2"
+gem "view_component", "~> 3.8"
