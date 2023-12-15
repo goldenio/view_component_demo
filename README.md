@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demostration for [Ruby Conf Taiwan 2023](https://2023.rubyconf.tw/#schedule).
 
-Things you may want to cover:
+Subject: `Use view components with rails projects from the design stage`
 
-* Ruby version
+Speaker: Tse-Ching Ho
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Time: 2023-12-15
