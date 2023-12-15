@@ -1,0 +1,25 @@
+news:
+  - text: 課程
+    url: /tags/課程/news
+  - text: 招生
+    url: /tags/招生/news
+  - text: 活動
+    url: /tags/活動/news
+  - text: 榮譽榜
+    url: /tags/榮譽榜/news
+  - text: 其他
+    url: /tags/其他/news
+
+research:
+  - text: 研究動態
+    url: /research_trends
+  - text: 學術研講專區
+    url: /academic_lectures
+  - text: 碩博士論文
+    url: /theses
+
+members:
+  - text: 師資
+    url: /teachers
+  - text: 行政人員
+    url: /

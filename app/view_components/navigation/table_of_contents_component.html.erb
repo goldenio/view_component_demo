@@ -1,0 +1,9 @@
+<div class='flex flex-col items-start justify-start gap-5 <%= wrapper_classes %>'>
+  <% items.each do |item| %>
+    <%= link_to item.url do %>
+      <div class='font-noto-sans font-medium text-sm text-black transition-all <%= active_classes(item.text) %>'>
+        <%= item.text %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
